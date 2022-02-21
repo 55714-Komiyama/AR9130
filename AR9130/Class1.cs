@@ -9,5 +9,6 @@ namespace AR9130
     public class Class1
     {
         // add comment.
+        // これでどうでしょうか？
     }
 }
