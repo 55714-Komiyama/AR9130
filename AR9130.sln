@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR9130", "AR9130\AR9130.csproj", "{FEF5F163-F4C0-4BCA-8501-AF6B16C04ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{83B162E7-FF5E-419A-AEC0-34D615C99606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF5F163-F4C0-4BCA-8501-AF6B16C04ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF5F163-F4C0-4BCA-8501-AF6B16C04ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF5F163-F4C0-4BCA-8501-AF6B16C04ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF5F163-F4C0-4BCA-8501-AF6B16C04ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B162E7-FF5E-419A-AEC0-34D615C99606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B162E7-FF5E-419A-AEC0-34D615C99606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B162E7-FF5E-419A-AEC0-34D615C99606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B162E7-FF5E-419A-AEC0-34D615C99606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
