@@ -34,6 +34,7 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.grpSearch = new System.Windows.Forms.GroupBox();
+            this.limitEditBox1 = new Aero.Cosi.Forms.LimitEditBox(this.components);
             this.mtxShopName = new Aero.Cosi.Forms.LimitEditBox(this.components);
             this.mtxShopCodeEnd = new Aero.Cosi.Forms.LimitEditBox(this.components);
             this.mtxShopCodeStart = new Aero.Cosi.Forms.LimitEditBox(this.components);
@@ -46,6 +47,7 @@
             this.slbMsgValue = new System.Windows.Forms.ToolStripStatusLabel();
             this.sprShopDetail = new FarPoint.Win.Spread.FpSpread();
             this.shtShopDetail = new FarPoint.Win.Spread.SheetView();
+            this.button1 = new System.Windows.Forms.Button();
             this.grpSearch.SuspendLayout();
             this.stsDisplayCount.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sprShopDetail)).BeginInit();
@@ -98,6 +100,8 @@
             // 
             // grpSearch
             // 
+            this.grpSearch.Controls.Add(this.button1);
+            this.grpSearch.Controls.Add(this.limitEditBox1);
             this.grpSearch.Controls.Add(this.mtxShopName);
             this.grpSearch.Controls.Add(this.mtxShopCodeEnd);
             this.grpSearch.Controls.Add(this.mtxShopCodeStart);
@@ -112,6 +116,22 @@
             this.grpSearch.TabStop = false;
             this.grpSearch.Text = "検索条件";
             // 
+            // limitEditBox1
+            // 
+            this.limitEditBox1.AsciiOnly = false;
+            this.limitEditBox1.CommaFormat = false;
+            this.limitEditBox1.DecimalPlace = 0;
+            this.limitEditBox1.Location = new System.Drawing.Point(296, 27);
+            this.limitEditBox1.MaximumValue = 9999D;
+            this.limitEditBox1.MaxLenB = 4;
+            this.limitEditBox1.MaxLength = 0;
+            this.limitEditBox1.MinimumValue = 0D;
+            this.limitEditBox1.Name = "limitEditBox1";
+            this.limitEditBox1.NumberOnly = true;
+            this.limitEditBox1.Size = new System.Drawing.Size(69, 27);
+            this.limitEditBox1.TabIndex = 4;
+            this.limitEditBox1.Value = "";
+            // 
             // mtxShopName
             // 
             this.mtxShopName.AsciiOnly = false;
@@ -125,7 +145,7 @@
             this.mtxShopName.Name = "mtxShopName";
             this.mtxShopName.NumberOnly = false;
             this.mtxShopName.Size = new System.Drawing.Size(296, 27);
-            this.mtxShopName.TabIndex = 5;
+            this.mtxShopName.TabIndex = 0;
             this.mtxShopName.Value = "";
             // 
             // mtxShopCodeEnd
@@ -167,7 +187,7 @@
             this.lblcapProcessName.Location = new System.Drawing.Point(10, 60);
             this.lblcapProcessName.Name = "lblcapProcessName";
             this.lblcapProcessName.Size = new System.Drawing.Size(84, 20);
-            this.lblcapProcessName.TabIndex = 4;
+            this.lblcapProcessName.TabIndex = 5;
             this.lblcapProcessName.Text = "作業部門名";
             // 
             // lblcapLabel1
@@ -240,6 +260,17 @@
             this.shtShopDetail.Reset();
             this.shtShopDetail.SheetName = "Sheet1";
             // 
+            // button1
+            // 
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(371, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 27);
+            this.button1.TabIndex = 6;
+            this.button1.TabStop = false;
+            this.button1.Text = "参照";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // AR9130
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -287,5 +318,7 @@
         private System.Windows.Forms.ToolStripStatusLabel slbRecCntCaption;
         private System.Windows.Forms.ToolStripStatusLabel slbRecCntValue;
         private System.Windows.Forms.ToolStripStatusLabel slbMsgValue;
+        private Aero.Cosi.Forms.LimitEditBox limitEditBox1;
+        internal System.Windows.Forms.Button button1;
     }
 }

@@ -11,6 +11,7 @@ namespace AR9130
         // add comment.
         // これでどうでしょうか？
         // Issue #1
-        // Public Repo
+
+        // Public Repo.
     }
 }
